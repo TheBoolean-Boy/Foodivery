@@ -6,12 +6,12 @@ import { toast } from "react-toastify";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBPHAZjfikQmW4_UzfQYq3oFSvjzjoD-FE",
-  authDomain: "foodivery-6bcb1.firebaseapp.com",
-  projectId: "foodivery-6bcb1",
-  storageBucket: "foodivery-6bcb1.firebasestorage.app",
-  messagingSenderId: "971362250339",
-  appId: "1:971362250339:web:fdc5ee396e726b276d5256"
+  apiKey: `${import.meta.env.VITE_apiKey}`,
+  authDomain: `${import.meta.env.VITE_authDomain}` ,
+  projectId: `${import.meta.env.VITE_projectId}`,
+  storageBucket: `${import.meta.env.VITE_storageBucket}`,
+  messagingSenderId: `${import.meta.env.VITE_messagingSenderId}`,
+  appId: `${import.meta.env.VITE_appId}`
 };
 
 
