@@ -63,7 +63,8 @@
   border-radius: 5px;
   background-color: tomato;
   top: -8px;
-  right: -8px;
+  right: 9.5px;
+  z-index: 8;
 }
 @media (max-width: 1050px) {
   .navbar .logo {
